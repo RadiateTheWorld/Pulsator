@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83635CFE2302207C002BCE8B /* Pulsator.m in Sources */ = {isa = PBXBuildFile; fileRef = 83635CFD2302207C002BCE8B /* Pulsator.m */; };
 		8A51842120AE6B9A002169CA /* Pulsator_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A51841F20AE6B9A002169CA /* Pulsator_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A77DC211CBC4B4E00087690 /* Pulsator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A77DC201CBC4B4E00087690 /* Pulsator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A77DC281CBC4B4E00087690 /* Pulsator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A77DC1D1CBC4B4E00087690 /* Pulsator.framework */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83635CFD2302207C002BCE8B /* Pulsator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pulsator.m; sourceTree = "<group>"; };
 		8A51841220AE652C002169CA /* PulsatorMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PulsatorMac.h; sourceTree = "<group>"; };
 		8A51841320AE652C002169CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A51841D20AE6B9A002169CA /* Pulsator_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pulsator_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +131,7 @@
 			children = (
 				8A77DC201CBC4B4E00087690 /* Pulsator.h */,
 				8A77DC221CBC4B4E00087690 /* Info.plist */,
+				83635CFD2302207C002BCE8B /* Pulsator.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -226,7 +229,7 @@
 					};
 					8A77DC1C1CBC4B4E00087690 = {
 						CreatedOnToolsVersion = 7.3;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1030;
 					};
 					8A77DC261CBC4B4E00087690 = {
 						CreatedOnToolsVersion = 7.3;
@@ -239,6 +242,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 8A77DC131CBC4B4E00087690;
@@ -290,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A77DC391CBC4BD000087690 /* Pulsator.swift in Sources */,
+				83635CFE2302207C002BCE8B /* Pulsator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +430,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Pulsator-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -478,6 +484,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "Pulsator-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				TARGETED_DEVICE_FAMILY = "1,2";

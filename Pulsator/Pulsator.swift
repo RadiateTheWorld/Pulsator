@@ -26,7 +26,7 @@ import QuartzCore
 
 internal let kPulsatorAnimationKey = "pulsator"
 
-open class Pulsator: CAReplicatorLayer, CAAnimationDelegate {
+@objc public class Pulsator: CAReplicatorLayer, CAAnimationDelegate {
 
     fileprivate let pulse = CALayer()
     fileprivate var animationGroup: CAAnimationGroup!
